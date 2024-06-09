@@ -7,7 +7,7 @@ fn update_commit_push() {
     .expect("Failed to execute git add command");
     
     let commit_command = Command::new("git")
-    .args(["commit", "-m", "Made Changes"])
+    .args(["commit", "-m", "Made Changes to Repository"])
     .output()
     .expect("Failed to execute git commit command");
     
